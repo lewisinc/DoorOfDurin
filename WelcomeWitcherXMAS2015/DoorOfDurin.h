@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+@import AppKit;
 
-@interface DoorOfDurin : NSObject
+@interface DoorOfDurin : NSObject <NSSpeechRecognizerDelegate>
+
+
+- (BOOL) isLocked;
+- (void) speak:(NSString *)phrase;
+- (void) listenFor:(NSString *)phrase;
 
 @end

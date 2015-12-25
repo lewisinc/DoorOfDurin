@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E52DC6F1C2D13AE0051597C /* DoorOfDurin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E52DC6E1C2D13AE0051597C /* DoorOfDurin.m */; };
 		8ECE09BB1C2CD88D00985D7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE09BA1C2CD88D00985D7D /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8E52DC6D1C2D13AE0051597C /* DoorOfDurin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorOfDurin.h; sourceTree = "<group>"; };
+		8E52DC6E1C2D13AE0051597C /* DoorOfDurin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorOfDurin.m; sourceTree = "<group>"; };
 		8ECE09B71C2CD88D00985D7D /* WelcomeWitcherXMAS2015 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WelcomeWitcherXMAS2015; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECE09BA1C2CD88D00985D7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				8ECE09BA1C2CD88D00985D7D /* main.m */,
+				8E52DC6D1C2D13AE0051597C /* DoorOfDurin.h */,
+				8E52DC6E1C2D13AE0051597C /* DoorOfDurin.m */,
 			);
 			path = WelcomeWitcherXMAS2015;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ECE09BB1C2CD88D00985D7D /* main.m in Sources */,
+				8E52DC6F1C2D13AE0051597C /* DoorOfDurin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +243,7 @@
 				8ECE09C01C2CD88D00985D7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
